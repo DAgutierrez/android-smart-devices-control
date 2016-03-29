@@ -1,1 +1,1 @@
-# smart-home
+# android-smart-devices-control
