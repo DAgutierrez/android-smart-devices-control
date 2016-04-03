@@ -5,6 +5,6 @@ package diego_gutierrez.androidsmartcontrol;
  */
 public class Config {
 
-//    public static String Server = "http://192.168.0.11:5445";
     public static String Server = "http://10.0.3.2:5445";
+//    public static String Server = "http://192.168.0.10:5445";
 }

@@ -161,7 +161,7 @@ public class LoginActivity extends AppCompatActivity {
         editor.commit();
 
         _loginButton.setEnabled(true);
-        Intent intent = new Intent(LoginActivity.this, HomeActivity.class);
+        Intent intent = new Intent(LoginActivity.this, MainActivity.class);
         startActivity(intent);
         finish();
     }
@@ -205,7 +205,7 @@ public class LoginActivity extends AppCompatActivity {
         // Check login status
         if(this.isLoggedIn()){
             // user is not logged in redirect him to Login Activity
-            Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
+            Intent intent = new Intent(getApplicationContext(), MainActivity.class);
             startActivity(intent);
             finish();
         }
